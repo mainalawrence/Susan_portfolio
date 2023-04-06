@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
+import Skin from "../../Assets/Projects/skin.jpg";
 import chatify from "../../Assets/Projects/washing-machine.jpg";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import courses from "../../Assets/Projects/D-courses.jpg";
 
 function Projects() {
   return (
@@ -25,13 +25,13 @@ function Projects() {
               title="Washing machine"
               description="so,is it possible to wash your shoes in a washing machine?"
               ghLink="https://machinelounge.com/?s=can+shoes+be+washed+in+a+washing+machine%3F"
-              
+
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={courses}
               isBlog={false}
               title="courses in university of Nairobi"
               description="D+ courses in university of Nairobi [All you need to know]."
@@ -41,11 +41,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Skin}
               isBlog={false}
               title="Type of skins"
               description="Types of skins for different people"
-              ghLink="https://susanbella.wordpress.com/2022/12/20/types-of-skins-for-different-people/"              
+              ghLink="https://susanbella.wordpress.com/2022/12/20/types-of-skins-for-different-people/"
             />
           </Col>
         </Row>
