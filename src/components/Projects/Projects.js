@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import Skin from "../../Assets/Projects/skin.jpg";
 import chatify from "../../Assets/Projects/washing-machine.jpg";
 import courses from "../../Assets/Projects/D-courses.jpg";
+import dryer from "../../Assets/Projects/dryer.jpg";
+
 
 function Projects() {
   return (
@@ -46,6 +48,17 @@ function Projects() {
               title="Type of skins"
               description="Types of skins for different people"
               ghLink="https://susanbella.wordpress.com/2022/12/20/types-of-skins-for-different-people/"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dryer}
+              isBlog={false}
+              title="About dryer"
+              description="Best portable dryer for apartment: Our recommended options (reviews)"
+              ghLink="https://machinelounge.com/?s=product+review"
             />
           </Col>
         </Row>
