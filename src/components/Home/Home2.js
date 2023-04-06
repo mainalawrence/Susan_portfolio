@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
+  AiFillFacebook,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
@@ -22,16 +22,16 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Susan is a content writer and a SEO specialist; she has skills and expertise to create high-quality content
-that not only the content that engages and informs the audience/ reader but also meets the
-requirements of search engine optimization (SEO)
+              that not only the content that engages and informs the audience/ reader but also meets the
+              requirements of search engine optimization (SEO)
               <br />
-              <br />I have {currentYear - 2020}+ years experince as a 
+              <br />I have {currentYear - 2020}+ years experince as a
 
               <b className="purple"> Content writer,  Content Creator, and SEO specialist  </b>
 
               <br />
               <br />
-             
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -49,12 +49,12 @@ requirements of search engine optimization (SEO)
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/mainalawrence"
+                  href="https://www.facebook.com/suzan.alexis"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <  AiFillFacebook />
                 </a>
               </li>
               <li className="social-icons">
