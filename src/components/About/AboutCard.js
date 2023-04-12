@@ -23,7 +23,7 @@ engine visibility.</p>
 meta descriptions, and internal linking.</p>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from Writing, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
