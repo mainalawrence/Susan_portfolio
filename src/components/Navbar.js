@@ -86,7 +86,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://susanbella.wordpress.com/2022/12/20/types-of-skins-for-different-people/"
+                href="https://kenyaeducationguide.com"
                 target="_blank"
                 rel="noreferrer"
               >
