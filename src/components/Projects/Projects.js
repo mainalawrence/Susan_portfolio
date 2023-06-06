@@ -41,15 +41,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Skin}
-              isBlog={false}
-              title="Type of skins"
-              description="Types of skins for different people"
-              ghLink="https://susanbella.wordpress.com/2022/12/20/types-of-skins-for-different-people/"
-            />
-          </Col>
+
 
 
           <Col md={4} className="project-card">
