@@ -6,7 +6,6 @@ import logo from "../Assets/Logo.svg";
 import { Link } from "react-router-dom";
 import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -86,7 +85,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} />Blogs
               </Nav.Link>
             </Nav.Item>
           </Nav>
@@ -94,6 +93,7 @@ function NavBar() {
       </Container>
     </Navbar>
   );
+
 }
 
 export default NavBar;
