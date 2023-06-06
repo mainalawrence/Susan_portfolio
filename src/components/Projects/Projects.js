@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Skin from "../../Assets/Projects/skin.jpg";
 import chatify from "../../Assets/Projects/washing-machine.jpg";
 import courses from "../../Assets/Projects/D-courses.jpg";
 import dryer from "../../Assets/Projects/dryer.jpg";
