@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chatify from "../../Assets/Projects/washing-machine.jpg";
-import courses from "../../Assets/Projects/D-courses.jpg";
 import dryer from "../../Assets/Projects/dryer.jpg";
 import nurse from "../../Assets/Projects/nurse.jpg";
 import kuups from "../../Assets/Projects/kuups.jpg";
